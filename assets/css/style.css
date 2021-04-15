@@ -408,10 +408,14 @@ h1, h2, h3, h4, h5, h6 {
 # Animation Section
 --------------------------------------------------------------*/
 
+.hero-text{
+  z-index: 2;
+}
+
 .circle{
   position: absolute;
   border-radius: 50%;
-  opacity: 25%;
+  opacity: 20%; 
 }
 
 .circle-lg{
