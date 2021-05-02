@@ -1,0 +1,17 @@
+.about{
+    min-height:60vh;
+}
+
+#skills{
+    min-height: 95vh;
+    background: #15101D;
+    color: white;
+}
+
+.section-title-skills{
+    margin-bottom: 5em ;
+}
+
+.section-title-skills p{
+    color: white;
+}

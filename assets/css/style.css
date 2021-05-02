@@ -587,11 +587,10 @@ section {
 .section-title p {
   margin: 0;
   margin: 0;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: lighter;
   font-family: "Poppins", sans-serif;
-  color: #151515;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -625,40 +624,6 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
-.clients {
-  padding-top: 20px;
-}
-
-.clients .swiper-slide img {
-  opacity: 0.5;
-  transition: 0.3s;
-  filter: grayscale(100);
-}
-
-.clients .swiper-slide img:hover {
-  filter: none;
-  opacity: 1;
-}
-
-.clients .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.clients .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  background-color: #ddd;
-}
-
-.clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #FF8C00;
-}
 
 /*--------------------------------------------------------------
 # Features
@@ -818,10 +783,10 @@ padding-top: 20px;
 }
 
 .features .icon-box-grey i {
-  font-size: 64px;
+  font-size: 144px;
   float: left;
   color: #9c47fc;
-  background:linear-gradient(45deg,#1e1e1e,#6a6a69);
+  background:linear-gradient(90deg,#40E0D0,#FF8C00,#FF0080);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -838,6 +803,7 @@ padding-top: 20px;
   display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 30vh;
 }
 
 @media(min-width: 992px){
