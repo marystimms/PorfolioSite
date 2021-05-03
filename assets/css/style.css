@@ -785,8 +785,10 @@ padding-top: 20px;
 .features .icon-box-grey i {
   font-size: 144px;
   float: left;
-  color: #9c47fc;
-  background:linear-gradient(90deg,#40E0D0,#FF8C00,#FF0080);
+  border-top: 1px solid rgba(255, 255,255, 0.5);
+  border-left: 1px solid rgba(255, 255,255, 0.5);
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.1);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
