@@ -1,113 +1,107 @@
-.about{
-    min-height:60vh;
+.about {
+	min-height: 60vh;
 }
 
-#skills{
-    position:relative;
-    min-height: 0vh;
-    background: #15101D;
-    color: white;
-    overflow: hidden;
-    z-index: 1
+#skills {
+	position: relative;
+	min-height: 0vh;
+	background: #15101d;
+	color: white;
+	overflow: hidden;
+	z-index: 1;
 }
 
-#Experience{
-    background:white;
-    z-index: 2;
+#Experience {
+	background: white;
+	z-index: 2;
 }
 
-
-.section-title-skills p{
-    color: white;
+.section-title-skills p {
+	color: white;
 }
 
-.container-skills{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.container-skills {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
-.container-skills .card-content{
-    padding: 20px;
-    text-align: center;
+.container-skills .card-content {
+	padding: 20px;
+	text-align: center;
 }
 
-.container-skills .card{
-    position: relative;
-    margin: 50px;
-    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
-    border-radius: 15px;
-    background: rgba(255, 255, 255, 0.1);
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid rgba(255, 255,255, 0.5);
-    border-left: 1px solid rgba(255, 255,255, 0.5);
-    backdrop-filter: blur(5px);
+.container-skills .card {
+	position: relative;
+	margin: 50px;
+	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 0.1);
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(5px);
 }
 
-.container-skills .card i{
-    top: -50px;
-    font-size: 8em;
-    background: rgba(255, 255,255, 0.5);
-    background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: translateY(10px);
-  transition: 0.5s;
+.container-skills .card i {
+	top: -50px;
+	font-size: 8em;
+	background: rgba(255, 255, 255, 0.5);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transform: translateY(10px);
+	transition: 0.5s;
 }
 
-.container-skills .card h4{
-    transform: translateY(100px);
-  opacity: 0;
-  transition: 0.5s;
+.container-skills .card h4 {
+	transform: translateY(100px);
+	opacity: 0;
+	transition: 0.5s;
 }
 
-.container .card:hover h4
-{
-    transform: translateY(0px);
-    opacity: 1;
+.container .card:hover h4 {
+	transform: translateY(0px);
+	opacity: 1;
 }
 
-.container .card:hover i
-{   
-    background:linear-gradient(-45deg,#40E0D0,#FF8C00,#FF0080);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-    
-    transform: translateY(0px);
-    opacity: 1;
+.container .card:hover i {
+	background: linear-gradient(-45deg, #40e0d0, #ff8c00, #ff0080);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+	transform: translateY(0px);
+	opacity: 1;
 }
 
-.skills-background-circle-blue{
-    position: absolute;
-    height:100vh ;
-    width:100vh;
-    border-radius:50%;
-    background:#40E0D0;
-    bottom:-30vh;
-    right:-25vw;
-    z-index: -5;
-    opacity: 20%;
-    box-shadow: 0 0 10vh 10vh #40E0D0;
+.skills-background-circle-blue {
+	position: absolute;
+	height: 100vh;
+	width: 100vh;
+	border-radius: 50%;
+	background: #40e0d0;
+	bottom: -30vh;
+	right: -25vw;
+	z-index: -5;
+	opacity: 20%;
+	box-shadow: 0 0 10vh 10vh #40e0d0;
 }
 
-.skills-background-circle-pink{
-    position: absolute;
-    height:80vh ;
-    width:80vh;
-    border-radius:50%;
-    background:#FF0080;
-    top:-30vh;
-    left:-25vw;
-    z-index: -5;
-    opacity: 20%;
-    box-shadow: 0 0 10vh 10vh #FF0080;
+.skills-background-circle-pink {
+	position: absolute;
+	height: 80vh;
+	width: 80vh;
+	border-radius: 50%;
+	background: #ff0080;
+	top: -30vh;
+	left: -25vw;
+	z-index: -5;
+	opacity: 20%;
+	box-shadow: 0 0 10vh 10vh #ff0080;
 }
-
-
-
