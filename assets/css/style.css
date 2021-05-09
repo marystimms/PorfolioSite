@@ -136,7 +136,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-	transition: all 0.9s;
+	transition: all 1.3s;
 	z-index: 997;
 	padding: 15px 0;
 	border-bottom: 3px solid;
@@ -145,11 +145,13 @@ h6 {
 	border-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
+	backdrop-filter: blur(5px);
 	border-image-source: linear-gradient(to right, #ff0080, #ff8c00, #ff8c00);
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
+	backdrop-filter: blur(5px);
 	background: rgba(0, 0, 0, 0.8);
 }
 
