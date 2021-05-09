@@ -2,10 +2,22 @@
 	min-height: 60vh;
 }
 
+#skills:before {
+	content: '';
+	content: '';
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
 #skills {
 	position: relative;
 	min-height: 0vh;
-	background: #15101d;
+	background-image: url(../img/sky-background.jpg);
+	background-size: cover;
 	color: white;
 	overflow: hidden;
 	z-index: 1;
@@ -71,7 +83,7 @@
 }
 
 .container .card:hover i {
-	background: linear-gradient(-45deg, #40e0d0, #ff8c00, #ff0080);
+	background: linear-gradient(-45deg, #ff0080, #ff8c00, #ff8c00);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -80,7 +92,7 @@
 	opacity: 1;
 }
 
-.skills-background-circle-blue {
+/* .skills-background-circle-blue {
 	position: absolute;
 	height: 100vh;
 	width: 100vh;
@@ -104,7 +116,7 @@
 	z-index: -5;
 	opacity: 20%;
 	box-shadow: 0 0 10vh 10vh #ff0080;
-}
+} */
 
 #education {
 	min-height: 100vh;
