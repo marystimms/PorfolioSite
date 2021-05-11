@@ -10,6 +10,10 @@
 }
 
 .edu-icon {
+	background: linear-gradient(-45deg, #ff0080, #ff8c00, #ff8c00);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	width: 50px;
 	height: 50px;
 	background-color: #eee;
@@ -27,7 +31,7 @@
 	padding-bottom: 3px;
 	border-radius: 5px;
 	display: flex;
-	color: #fed85d;
+	color: #ff8c00;
 	justify-content: center;
 	align-items: center;
 }
