@@ -28,6 +28,7 @@
   <!-- Alterations CSS File -->
   <link href="assets/css/aboutme.css" rel="stylesheet">
   <link href="assets/css/education-card-style.css" rel="stylesheet">
+  <link href="assets/css/card-styles.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Gp - v4.1.0
@@ -181,8 +182,71 @@
             <h1>Education</h1>
           </div>
         </div>
+        <div class="container mt-5 mb-3">
+          <div class="row">
+            <div class="col-md-4">
+                <div class="edu-card p-3 mb-2">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                            <div class="edu-icon"> <i class="bx bxs-school"></i> </div>
+                            <div class="ms-2 c-details">
+                                <h6 class="mb-0">Loreto Grammar School</h6> <span>2008-2015</span>
+                            </div>
+                        </div>
+                        <div class="badge" onclick="toggleCardText('loreto','loreto-button')"> <span id="loreto-button">See More</span> </div>
+                    </div>
+                    <div class="mt-5">
+                        <h3 class="heading">4 A levels (A*)</h3>
+                    </div>
+                    <div class="education-card-text" id="loreto">
+                        During my days at school I achieved high grades while simmultaneously taking part in multiple extra-curricular activities such as founding a mentoring system designed to aid younger students and being the sixth form representative for Maths and Science.
+                    </div>
 
-          <div class="education-card row justify-content-sm-center justify-content-md-left" data-aos="fade-right" data-aos-delay="500" id="lorteo-grammar-card">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="edu-card p-3 mb-2">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                            <div class="edu-icon"> <i class="bx bxs-graduation"></i> </div>
+                            <div class="ms-2 c-details">
+                                <h6 class="mb-0">Durham University</h6> <span>2015-2019</span>
+                            </div>
+                        </div>
+                        <div class="badge" onclick="toggleCardText('durham','durham-button')"> <span id="durham-button">See More</span> </div>
+                    </div>
+                    <div class="mt-5">
+                        <h3 class="heading">Master of Mathematics</h3>
+                    </div>
+                    <div class="education-card-text" id="durham">
+                        For my masters I focused on pure mathematics and the intrecacies of geometry within continued fractions. </br></br>
+                        Many of my modules allowed me to experiment with programming, where I learnt how to apply python and R in a vareity of different scenarios.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="edu-card p-3 mb-2">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                            <div class="edu-icon"> <i class="bx bx-git-compare"></i> </div>
+                            <div class="ms-2 c-details">
+                                <h6 class="mb-0">Just IT</h6> <span>2020-2021</span>
+                            </div>
+                        </div>
+                        <div class="badge" onclick="toggleCardText('justit','justit-button')"> <span id="justit-button">See More</span> </div>
+                    </div>
+                    <div class="mt-5">
+                        <h3 class="heading">Front End Development</h3>
+                    </div>
+                    <div class="education-card-text" id="justit">
+                        Towards the end of 2020, I finally decided to persuit my goals and take the step to turn my hobby into a career. </br></br>
+                        With JustIT I've been able to develop my front-end skills and develop projects I'm proud of enjoy developing. 
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+          <!-- <div class="education-card row justify-content-sm-center justify-content-md-left" data-aos="fade-right" data-aos-delay="500" id="lorteo-grammar-card">
 
               <div class="education-card-icon col-2">
                 <i class="bx bxs-school"></i>
@@ -237,7 +301,7 @@
       </div>
 
 
-        </div>
+        </div> -->
 
 
           <!--<div class="row">
