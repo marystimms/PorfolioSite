@@ -19,12 +19,13 @@ ul.timeline:before {
 
 li.timeline-item {
 	margin: 20px 0;
+	left: 2rem;
 }
 
 /* Timeline item arrow */
 .timeline-arrow {
 	border-top: 0.5rem solid transparent;
-	border-right: 0.5rem solid #fff;
+	border-right: 0.5rem solid #ff8c00;
 	border-bottom: 0.5rem solid transparent;
 	display: block;
 	position: absolute;
