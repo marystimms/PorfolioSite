@@ -107,7 +107,7 @@
       <!-- ======= Skills Section ======= -->
 
       <section id="skills" class="features">
-        <div class="container" data-aos="fade-up">
+          <div class="container" data-aos="fade-up">
           <div class="section-title section-title-skills">
               <h2>Skills</h2>
               <h1>Languages and Frameworks</h1>
@@ -184,9 +184,9 @@
             <h1>Education</h1>
           </div>
         </div>
-        <div class="container mt-3 mb-3">
+        <div class="container mt-3 mb-3" >
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
                 <div class="edu-card p-3 mb-2">
                     <div class="d-flex justify-content-between">
                         <div class="d-flex flex-row align-items-center">
@@ -195,18 +195,18 @@
                                 <h6 class="mb-0">Loreto Grammar School</h6> <span>2008-2015</span>
                             </div>
                         </div>
-                        <div class="badge" onclick="toggleCardText('loreto','loreto-button')"> <span id="loreto-button">See More</span> </div>
+                        <div class="badge" onclick="toggleText('toggle-button-loreto', 'loreto')"> <span id="toggle-button-loreto">See More</span> </div>
                     </div>
                     <div class="mt-3">
-                        <h3 class="heading">4 A levels (A*)</h3>
+                        <h3 class="heading">GCSE & A/AS Levels</h3>
                     </div>
-                    <div class="education-card-text" id="loreto">
+                    <div class="education-card-text collapsible" data-collapsed="false" id="loreto">
                         During my days at school I achieved high grades while simmultaneously taking part in multiple extra-curricular activities such as founding a mentoring system designed to aid younger students and being the sixth form representative for Maths and Science.
                     </div>
 
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
                 <div class="edu-card p-3 mb-2">
                     <div class="d-flex justify-content-between">
                         <div class="d-flex flex-row align-items-center">
@@ -215,18 +215,18 @@
                                 <h6 class="mb-0">Durham University</h6> <span>2015-2019</span>
                             </div>
                         </div>
-                        <div class="badge" onclick="toggleCardText('durham','durham-button')"> <span id="durham-button">See More</span> </div>
+                        <div class="badge" onclick="toggleText('toggle-button-durham', 'durham')"> <span id="toggle-button-durham">See More</span> </div>
                     </div>
                     <div class="mt-3">
                         <h3 class="heading">Master of Mathematics</h3>
                     </div>
-                    <div class="education-card-text" id="durham">
+                    <div class="education-card-text collapsible" data-collapsed="false" id="durham">
                         For my masters I focused on pure mathematics and the intrecacies of geometry within continued fractions. </br></br>
                         Many of my modules allowed me to experiment with programming, where I learnt how to apply python and R in a vareity of different scenarios.
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
                 <div class="edu-card p-3 mb-2">
                     <div class="d-flex justify-content-between">
                         <div class="d-flex flex-row align-items-center">
@@ -235,12 +235,12 @@
                                 <h6 class="mb-0">Just IT</h6> <span>2020-2021</span>
                             </div>
                         </div>
-                        <div class="badge" onclick="toggleCardText('justit','justit-button')"> <span id="justit-button">See More</span> </div>
+                        <div class="badge" onclick="toggleText('toggle-button-justit', 'justit')"> <span id="toggle-button-justit">See More</span> </div>
                     </div>
                     <div class="mt-3">
                         <h3 class="heading">Front End Development</h3>
                     </div>
-                    <div class="education-card-text" id="justit">
+                    <div class="education-card-text collapsible" data-collapsed="false" id="justit">
                         Towards the end of 2020, I finally decided to persuit my goals and take the step to turn my hobby into a career. </br></br>
                         With JustIT I've been able to develop my front-end skills and develop projects I'm proud of enjoy developing. 
                     </div>
@@ -446,6 +446,28 @@
 
       </div>
     </section>
+
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+  
+            <div class="col-lg-3 col-md-6 justify-content-left">
+              <div class="footer-info">
+                <div class="social-links mt-3 justify-content-center">
+                  <a href="#" class="twitter"><i class="bx bxl-github"></i></a>
+                  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                  
+                </div>
+              </div>         
+  
+  
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
 
 
         <!-- Vendor JS Files -->

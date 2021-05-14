@@ -2,7 +2,6 @@
 	border: none;
 	border-radius: 10px;
 	background: white;
-
 	box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.4);
 }
 
@@ -58,5 +57,7 @@
 
 .education-card-text {
 	font-size: 16px;
-	display: none;
+	overflow: hidden;
+	transition: height 0.3s ease-out;
+	height: auto;
 }
