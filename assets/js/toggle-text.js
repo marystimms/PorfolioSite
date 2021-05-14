@@ -40,6 +40,8 @@ function collapseSection(element) {
       // remove "height" from the element's inline styles, so it can return to its initial value
       element.style.height = null;
     });
+
+   
     
     // mark the section as "currently not collapsed"
     element.setAttribute('data-collapsed', 'false');
@@ -58,7 +60,10 @@ function collapseSection(element) {
     if(isCollapsed) {
         expandSection(section)
         section.setAttribute('data-collapsed', 'false')
+        document.getElementById(button).innerHTML = "See Less"
       } else {
         collapseSection(section)
+        
+        document.getElementById(button).innerHTML = "See More"
       }
   };

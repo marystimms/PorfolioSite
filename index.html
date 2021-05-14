@@ -44,12 +44,14 @@
 
     <!-- Header -->
 
+    
+
       <header id="header" class="fixed-top ">
         <div class="container d-flex align-items-center justify-content-lg-between">
 
           <h1 class="logo me-auto me-lg-0 orange"><a href="index.html">MT</a></h1>
 
-          <nav id="navbar" class="navbar order-last order-lg-0">
+          <nav id="navbar" class="navbar nav-menu order-last order-lg-0">
             <ul>
               <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
               <li><a class="nav-link scrollto" href="#about">About</a></li>
@@ -85,7 +87,7 @@
         <div class="container " data-aos="fade-up">
 
           <div class="row about-row">
-            <div class="col-lg pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-left" data-aos-delay="100">
+            <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
               <div class="section-title" data-aos="fade-up">
                 <h2>About Me</h2>
                 <h1>What I'm all about</h1>
@@ -98,7 +100,11 @@
                 After leaving university I decided to move to London and found a job as a programmatic trader, during 2020 I finally decided to take the step to turn a long term hobby into a career. After spending many of my evenings in lockdown working on unity I redescovered my love for programming and the challenges it brings. The decision came when I decided to take control and found JustIt. This course has allowed me to develop my skills and helped me to create a variety of technical and creative <a href="#projects">projects</a>. After having learnt the basics of both front and back end development, I decided to further develop my front end skills due to its visual nature.
 
               </p>
+
+              
             </div>
+            <img class="col-lg-5 rounded-circle z-depth-2" data-aos="fade-left" src="/assets/img/profesional.jpg">
+            
           </div>
 
         </div>
@@ -108,7 +114,7 @@
 
       <section id="skills" class="features">
           <div class="container" data-aos="fade-up">
-          <div class="section-title section-title-skills">
+          <div class="section-title section-title-surface">
               <h2>Skills</h2>
               <h1>Languages and Frameworks</h1>
               <p>While having a solid understanding of CSS, Javascript and HTML, I've also learn some of the most popular frameworks and libraries.</p>
@@ -189,10 +195,10 @@
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
                 <div class="edu-card p-3 mb-2">
                     <div class="d-flex justify-content-between">
-                        <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex flex-row">
                             <div class="edu-icon"> <i class="bx bxs-school"></i> </div>
                             <div class="ms-2 c-details">
-                                <h6 class="mb-0">Loreto Grammar School</h6> <span>2008-2015</span> <br><span>GCSE & A/AS Levels</span>
+                                <h4 class="mb-0">Loreto Grammar School</h4> <span>2008-2015</span> <br><span>GCSE & A/AS Levels</span>
                             </div>
                         </div>
                         <div class="badge" onclick="toggleText('toggle-button-loreto', 'loreto')"> <span id="toggle-button-loreto">See More</span> </div>
@@ -200,7 +206,12 @@
                     <!-- <div class="mt-3">
                         <h3 class="heading text-center" >GCSE & A/AS Levels</h3>
                     </div> -->
-                    <div class="education-card-text collapsible" data-collapsed="false" id="loreto">
+                    <div class="education-card-text collapsible mt-3" data-collapsed="false" id="loreto">
+                      <h5>A-levels</h5>
+                      <span> ICT - A*</span><br>
+                      <span> Mathematics - A*</span><br>
+                      <span> Further Mathematics - A*</span><br>
+                      <span> Physics - A*</span><br><br>
                         During my days at school I achieved high grades while simmultaneously taking part in multiple extra-curricular activities such as founding a mentoring system designed to aid younger students and being the sixth form representative for Maths and Science.
                     </div>
 
@@ -209,10 +220,10 @@
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
                 <div class="edu-card p-3 mb-2">
                     <div class="d-flex justify-content-between">
-                        <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex flex-row ">
                             <div class="edu-icon"> <i class="bx bxs-graduation"></i> </div>
                             <div class="ms-2 c-details">
-                                <h6 class="mb-0">Durham University</h6> <span>2015-2019</span> <br><span>Master of Mathematics</span>
+                                <h4 class="mb-0">Durham University</h4> <span>2015-2019</span> <br><span>Master of Mathematics</span>
                             </div>
                         </div>
                         <div class="badge" onclick="toggleText('toggle-button-durham', 'durham')"> <span id="toggle-button-durham">See More</span> </div>
@@ -220,7 +231,14 @@
                     <!-- <div class="mt-3 text-center">
                         <h3 class="heading"></h3>
                     </div> -->
-                    <div class="education-card-text collapsible" data-collapsed="false" id="durham">
+                    <div class="education-card-text collapsible mt-3" data-collapsed="false" id="durham">
+                      <div id="education-card-extra">
+                      <h5>Extra-Curricular</h5>
+                      <span> Women in STEM - Founder</span><br>
+                      <span> Sturdent Community Action Representative</span><br>
+                      <span> Hatfield </span><br>
+                      <span> Physics - A*</span><br><br>
+                      </div>
                         For my masters I focused on pure mathematics and the intrecacies of geometry within continued fractions. </br></br>
                         Many of my modules allowed me to experiment with programming, where I learnt how to apply python and R in a vareity of different scenarios.
                     </div>
@@ -229,10 +247,10 @@
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
                 <div class="edu-card p-3 mb-2">
                     <div class="d-flex justify-content-between">
-                        <div class="d-flex flex-row align-items-center">
+                        <div class="d-flex flex-row">
                             <div class="edu-icon"> <i class="bx bx-git-compare"></i> </div>
                             <div class="ms-2 c-details">
-                                <h6 class="mb-0">Just IT</h6> <span>2020-2021</span> <br><span>Front End Development</span>
+                                <h4 class="mb-0">Just IT</h4> <span>2020-2021</span> <br><span>Front End Development</span>
                             </div>
                         </div>
                         <div class="badge" onclick="toggleText('toggle-button-justit', 'justit')"> <span id="toggle-button-justit">See More</span> </div>
@@ -240,7 +258,8 @@
                     <!-- <div class="mt-3 text-center">
                         <h3 class="heading">Front End Development</h3>
                     </div> -->
-                    <div class="education-card-text collapsible" data-collapsed="false" id="justit">
+                    <div class="education-card-text collapsible mt-3 ml-1 mr-1 text-sm" data-collapsed="false" id="justit">
+
                         Towards the end of 2020, I finally decided to persuit my goals and take the step to turn my hobby into a career. </br></br>
                         With JustIT I've been able to develop my front-end skills and develop projects I'm proud of enjoy developing.
                     </div>
@@ -257,7 +276,7 @@
 
         <div class="container" data-aos="fade-up">
 
-            <div class="section-title mb-0">
+            <div class="section-title section-title-surface mb-0">
               <h2>Experience</h2>
               <h1>Work Experience</h1>
             </div>
@@ -389,12 +408,12 @@
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
+        <div class="section-title section-title-surface">
           <h2>Contact</h2>
           <h1>Contact Me</h1>
         </div>
 
-        <div class="row mt-5">
+        <div class="row">
 
           <div class="col-lg-4">
             <div class="info">
