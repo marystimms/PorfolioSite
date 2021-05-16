@@ -456,7 +456,7 @@ section {
 @media (max-width: 768px) {
 	.section-title h2::after {
 		content: '';
-		width: 25px;
+		width: 20px;
 		height: 1px;
 		display: inline-block;
 		background: linear-gradient(45deg, var(--primary), var(--primary-variant));
@@ -467,14 +467,14 @@ section {
 @media (min-width: 768px) {
 	.section-title h2::after {
 		content: '';
-		width: 50px;
+		width: 120px;
 		height: 1px;
 		display: inline-block;
 		background: linear-gradient(45deg, var(--primary), var(--primary-variant));
 		margin: 4px 10px;
 	}
 }
-
+/* 
 .section-title h2::after {
 	content: '';
 	width: 120px;
@@ -482,7 +482,7 @@ section {
 	display: inline-block;
 	background: linear-gradient(45deg, var(--primary), var(--primary-variant));
 	margin: 4px 10px;
-}
+} */
 
 .section-title p {
 	margin: 0;
