@@ -97,7 +97,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-	transition: all 1.3s;
+	transition: background 1.3s;
 	z-index: 997;
 	padding: 15px 0;
 	border-bottom: 3px solid;
@@ -238,6 +238,7 @@ Desktop Navigation
 	bottom: 0;
 	background: rgba(0, 0, 0, 0.9);
 	transition: 0.3s;
+	height: 50vh;
 	z-index: 999;
 }
 
@@ -263,7 +264,7 @@ Desktop Navigation
 .navbar-mobile a {
 	padding: 10px 20px;
 	font-size: 15px;
-	color: #151515;
+	color: var(--on-surface);
 }
 
 .navbar-mobile a:hover,
