@@ -22,8 +22,7 @@
 	--background: white;
 	--surface: #222629;
 	--surface-variant: #474b4f;
-	--on-primary: #474b4f;
-	--on-primary: #474b4f;
+	--on-primary: white;
 	--on-background: #474b4f;
 	--on-surface: white;
 }
@@ -596,28 +595,32 @@ h1 {
 --------------------------------------------------------------*/
 
 #education {
-	background-image: url(../img/triangle-bg.jpg);
+	background-image: url(../img/triangle-bg.png);
 	background-position: bottom;
 	background-size: cover;
-	min-height: 80vh;
+	min-height: 100vh;
 }
 
 .edu-card {
 	border: none;
 	border-radius: 10px;
-	background: var(--surface-variant);
+	/* background: var(--background-variant); */
 	box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.4);
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(10px);
+	background: white;
 }
 
 .c-details h4 {
 	font-weight: 500;
-	color: var(--on-surface);
+	color: var(--on-background);
 }
 
 .c-details span {
 	font-weight: 300;
 	font-size: 13px;
-	color: var(--on-surface);
+	color: var(--on-background);
 }
 
 .education-card-text::before {
@@ -655,17 +658,8 @@ h1 {
 	align-items: center;
 }
 
-.text1 {
-	font-size: 14px;
-	font-weight: 600;
-}
-
-.text2 {
-	color: var(--on-surface);
-}
-
 .education-card-text {
-	color: var(--on-surface);
+	color: black;
 	overflow: hidden;
 	transition: height 0.3s ease-out;
 	height: auto;
@@ -725,6 +719,15 @@ li.timeline-item::before {
 	height: 14px;
 	z-index: 400;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.timeline .icon-box-work {
+	color: var(--primary);
+	font-size: 1.5em;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 1em;
 }
 
 /*--------------------------------------------------------------
@@ -914,13 +917,13 @@ li.timeline-item::before {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-	background: var(--surface);
+	background: var(--surface-variant);
 }
 
 .contact .info i {
 	font-size: 20px;
 	background: var(--primary-variant);
-	color: var(--on-primary);
+	color: black;
 	float: left;
 	width: 44px;
 	height: 44px;
@@ -1053,14 +1056,14 @@ li.timeline-item::before {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-	background: var(--surface-variant);
+	background: var(--surface);
 	padding: 0 0 10px 0;
 	color: var(--on-surface);
 	font-size: 14px;
 }
 
 #footer .footer-top {
-	background: var(--surface-variant);
+	background: var(--surface);
 	padding: 15px 0 15px 0;
 }
 
